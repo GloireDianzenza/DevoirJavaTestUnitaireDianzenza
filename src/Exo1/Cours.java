@@ -43,7 +43,7 @@ public class Cours
      * @return the prixCours
      */
     public int getPrixCours() {
-        return 10;
+        return prixCours;
     }
    
    
