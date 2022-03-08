@@ -13,7 +13,7 @@ public class ClasseExo2
 {
     public static double CalculerForfait(boolean licencie, int age,boolean carteNeige, boolean assurance)
     {
-        int prixForfait = 0;
+        double prixForfait = 0;
         if(licencie)
         {
             prixForfait += 13;
@@ -31,7 +31,7 @@ public class ClasseExo2
         }
         if(carteNeige)
         {
-            prixForfait *= 0.9;
+            prixForfait = prixForfait * 0.9;
         }
         if(assurance)
         {
